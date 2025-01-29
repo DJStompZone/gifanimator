@@ -20,8 +20,6 @@ At this time, supported animations are:
 
 ### Via PyPi
 
-(Coming soon)
-
 ```sh
 pip install gifanimator
 ```
