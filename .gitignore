@@ -1,0 +1,17 @@
+venv/
+_venv/
+env/
+.env
+*.gif
+*.png
+*.jpg
+*.jpeg
+__pycache__/
+poetry_cache/
+*.pyc
+*.pyo
+*.pyi
+*.tar
+*.zip
+*.tar.gz
+*.whl
