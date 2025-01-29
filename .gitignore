@@ -15,3 +15,6 @@ poetry_cache/
 *.zip
 *.tar.gz
 *.whl
+dist/
+build/
+.pypirc
