@@ -8,7 +8,7 @@ authors = [
 maintainers = [
     { name = "DJ Stomp", email = "85457381+DJStompZone@users.noreply.github.com" },
 ]
-license = "LICENSE"
+license = "MIT"
 readme = "README.md"
 keywords = ["pillow", "image", "editing", "gif", "transparency", "animation"]
 
