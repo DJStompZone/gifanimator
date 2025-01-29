@@ -1,5 +1,6 @@
 import argparse
 import os
+import json
 from typing import Optional, Any
 
 from PIL import Image
