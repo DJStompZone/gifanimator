@@ -99,5 +99,5 @@ MIT License. See the [LICENSE](LICENSE) file for details.
 
 <hr>
 
-<div align="center"><br><img src="https://i.imgur.com/L31eOwn.png"/>
+<div align="center"><br><img src="https://i.imgur.com/hjzic92.png"/>
 <h1><a href="https://github.com/djstompzone"><img src="https://img.shields.io/github/stars/DJStompZone?label=DJStompZone%20%7C%20Stars"/></a><br><a href="https://discord.stomp.zone"><img src="https://img.shields.io/discord/599808270655291403?logo=discord&label=StompZone%20Discord"/></a><br><a href="https://youtube.com/@djstompzone"><img src="https://img.shields.io/youtube/channel/views/UCVmIXrlXjpzJTGkANYlTxaQ"/></a></h1></div>
