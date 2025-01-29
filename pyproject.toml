@@ -21,7 +21,7 @@ documentation = "https://github.com/DJStompZone/gifanimator/blob/main/README.md"
 "Discord" = "https://discord.stomp.zone"
 
 [tool.poetry]
-version = "1.0.5"
+version = "1.0.6"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
