@@ -1,12 +1,30 @@
-[tool.poetry]
+[project]
 name = "gifanimator"
-version = "0.1.0"
-description = ""
-authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
+description = "Extensible library for applying animated effects to still images and generating GIFs"
+dynamic = [ "version" ]
+authors = [
+    { name = "DJ Stomp", email = "85457381+DJStompZone@users.noreply.github.com" },
+]
+maintainers = [
+    { name = "DJ Stomp", email = "85457381+DJStompZone@users.noreply.github.com" },
+]
+license = "LICENSE"
 readme = "README.md"
+keywords = ["pillow", "image", "editing", "gif", "transparency", "animation"]
+
+[project.scripts]
+gifanimator = 'gifanimator.__main__:parse_args'
+
+[project.urls]
+repository = "https://github.com/djstompzone/gifanimator"
+documentation = "https://github.com/DJStompZone/gifanimator/blob/main/README.md"
+"Discord" = "https://discord.stomp.zone"
+
+[tool.poetry]
+version = "1.0.3"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.10,<4.0"
 pillow = "^11.1.0"
 pytest = "^8.3.4"
 

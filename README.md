@@ -19,7 +19,7 @@ At this time, supported animations are:
 (Coming soon)
 
 ```sh
-# pip install gifanimator
+pip install gifanimator
 ```
 
 ### Via GitHub (developers)
@@ -38,8 +38,8 @@ pip install .
 
 Generate a jittery animated GIF:
 ```
-python -m gifanimator input.png output.gif \
-    --params '{"effect": "jitter", "params": {"frames": 10, "max_shift": 5}}'
+gifanimator input.png output.gif \
+    --params '{"effect": "jitter", "duration": 2, "params": {"frames": 10, "max_shift": 5}}'
 ```
 
 

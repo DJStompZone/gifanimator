@@ -5,7 +5,7 @@ from PIL import Image
 class BaseAnimation(ABC):
     """Abstract base class for animated image effects."""
 
-    def __init__(self, duration: int = 50, params: Optional[dict[str, str | int | bool | list[str] | list[int]]] = None):
+    def __init__(self, duration: int|float = 2, params: Optional[dict[str, str | int | bool | list[str] | list[int]]] = None):
         """
         :param duration: Frame duration in milliseconds.
         :param params: Optional dictionary of animation parameters.
@@ -14,6 +14,5 @@ class BaseAnimation(ABC):
         self.params = params or {}
 
     @abstractmethod
-    def apply(self, image: Image.Image) -> list[Image.Image]:
+    def apply(self, images: Image.Image | list[Image.Image]) -> list[Image.Image]:
         """Apply the animation effect and return a list of frames."""
-        pass
